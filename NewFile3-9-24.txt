@@ -1,0 +1,3 @@
+I’m adding a new file to the repository
+
+I converted this file to a plain text file from an rtf file to see what happens to the commit.  
