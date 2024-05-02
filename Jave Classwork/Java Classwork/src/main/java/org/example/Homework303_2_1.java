@@ -85,10 +85,13 @@ public class Homework303_2_1 {
         double TEA = 4.00;
         double COKE = 2.50;
         double SALES_TAX = 0.045;
-        double subTotal = 3*COFFEE + 4*TEA + 2*COKE;
-        double totalSale = subTotal * SALES_TAX;
-        System.out.println("The Sub Total is "+ subTotal %2F);
-        System.out.println("The Total Sale is " + totalSale %2F);
+        double subTotal = (3*COFFEE) + (4*TEA) + (2*COKE);
+        double totalSale = subTotal + (subTotal * SALES_TAX);
+        System.out.println("The Sub Total is "+ subTotal);
+        System.out.println("The Total Sale is " + totalSale);
+
+        String formattedSale = String.format("%.2f", totalSale);
+        System.out.println("Total Sale     "+ formattedSale + "");
 
     }
 }
