@@ -1,7 +1,9 @@
 package org.example;
 
 public class Homework303_2_1 {
+    static final double SALES_TAX = 0.045;
     public static void main(String[] args){
+
 
 //        Write a program that declares two integer variables, assigns an integer to
 //        each, and adds them together. Assign the sum to a variable.
@@ -84,7 +86,7 @@ public class Homework303_2_1 {
         double COFFEE = 4.50;
         double TEA = 4.00;
         double COKE = 2.50;
-        double SALES_TAX = 0.045;
+//        double SALES_TAX = 0.045;
         double subTotal = (3*COFFEE) + (4*TEA) + (2*COKE);
         double totalSale = subTotal + (subTotal * SALES_TAX);
         System.out.println("The Sub Total is "+ subTotal);
