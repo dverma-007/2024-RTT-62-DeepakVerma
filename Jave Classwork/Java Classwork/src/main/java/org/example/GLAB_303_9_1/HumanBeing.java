@@ -1,0 +1,47 @@
+package org.example.GLAB_303_9_1;
+
+// Create a class named HumanBeing with two constructors: class variables
+// (weight, height, and bmi) and setter and getter methods.
+
+
+public class HumanBeing {
+    private float weight;
+    private float height;
+    private float bmi;
+
+    public HumanBeing(float weight, float height, float bmi) {
+        this.weight = weight;
+        this.height = height;
+        this.bmi = bmi;
+    }
+
+    public HumanBeing() {
+    }
+
+    public float getWeight() {
+        return weight;
+    }
+
+    public void setWeight(float weight) {
+        this.weight = weight;
+    }
+
+    public float getHeight() {
+        return height;
+    }
+
+    public void setHeight(float height) {
+        this.height = height;
+    }
+
+    public float getBMI() {
+        return bmi;
+    }
+
+    public void setBMI(float bmi) {
+        this.bmi = bmi;
+    }
+
+    public static void main(String[] args) {
+    }
+}
